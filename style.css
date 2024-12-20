@@ -1,0 +1,113 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+} 
+
+
+
+/* .main{
+    width: 100vw;
+    height: 50px;
+    background-color: aqua; */
+   
+
+.neb{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position:fixed
+
+    /* background-color: lightblue; */
+
+}
+ul{
+    display: flex;
+    list-style-type:  none;
+    /* align-items: center; */
+    font-size: 30px;
+    height: 100px;
+ 
+}
+.home{
+/* background-color: rgba(0, 0, 255, 0.37); */
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 50px;
+padding-right: 50px;
+
+background-image: url(https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?s=612x612&w=0&k=20&c=N-pGA8OClRVDzRfj_9AqANnOaDS3devZWwrQNwZuDSk=);
+transform: rotate(90deg) ;
+}
+.about{
+    /* background-color: rgb(107, 107, 168); */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+ 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3JSLX9PRWlyczTkSVEw-y65s44cBwqr4mpw&s);
+    transform: rotate(90deg) ;
+    }
+
+    .services{
+        /* background-color: rgb(107, 107, 168); */
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-image: url(https://t3.ftcdn.net/jpg/02/70/35/00/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg);
+
+        transform: rotate(90deg) ;
+        }
+        .contact{
+            /* background-color: rgb(107, 107, 168); */
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Dw7-4lVfRq74_YEiPEt4e-bQ0_6UA2y73Q&s);
+            transform: rotate(90deg) ;
+            }
+            .home:hover{
+                padding-top: 80px;
+                padding-bottom: 70px;
+                padding-left: 60px;
+                padding-right: 60px;
+                color: white;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhA4F-yTX2s8hqQTd3AtLUaJOy00yNpGMBBHrwjjjb82lRZI7PR3BfZFFImvpmEUFsjLg&usqp=CAU);
+                transform: rotate(360deg);
+               
+            }
+            .about:hover{
+                padding-top: 80px;
+                padding-bottom: 100px;
+                padding-left: 60px;
+                padding-right: 60px;
+                color: white;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFp7tHB44yP-XR_wzKMxgGaSM5R6S5kuPOCg&s);
+                transform: rotate(360deg);
+               
+            }
+            .services:hover{
+                padding-top: 60px;
+                padding-bottom: 80px;
+                padding-left: 60px;
+                padding-right: 60px;
+                color: white;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdUP1pDBJDw4-JvNyhwlYTNvto9paIL8b2jsN4lMV9McHAvqd9YA_j-beiffNYYT4rr_I&usqp=CAU);
+                transform: rotate(360deg);
+               
+            }
+            .contact:hover{
+                padding-top: 60px;
+                padding-bottom: 100px;
+                padding-left: 60px;
+                padding-right: 20px;
+                color: white;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA88vF1uAEC9ubZMY9PGMetiSD0HZyAKrwUmVIJKcL87tE_UdhPcSOXZasxOBSTf_wYmc&usqp=CAU);
+           border-image-repeat:no-repeat ;
+                transform: rotate(360deg);
+
+               
+            }
